@@ -97,7 +97,7 @@ var onPlayerStateChange = (function() {
 		var bg = document.querySelector(".full")
 		bg.style.background='url(img/intheGarden.jpg)';
 		clearInterval(refreshScreen);
-		clearUp();
+		clearAll();
 	}
 }
 })()
@@ -112,6 +112,10 @@ function display(txt, duration){
 
 function clearUp(){
 	$.CloseMessage();
+}
+
+function clearAll(){
+	$.ClearAllMessage();
 }
 
 function getRandomColor() {
