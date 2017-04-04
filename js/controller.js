@@ -66,7 +66,7 @@ function onYouTubeIframeAPIReady() {
 	player = new YT.Player('bgm_player', {
 	height: '0',
 	width: '0',
-	videoId: '5Cof9rP7TEQ',
+	videoId: 'IGQBtbKSVhY',
 	playerVars: { 'autoplay': 1, 'controls': 0 },
 	events: {
 		'onReady': onPlayerReady,
@@ -94,8 +94,7 @@ var onPlayerStateChange = (function() {
 			}
 		}, 500);
 	} else if (event.data == YT.PlayerState.ENDED) {
-		var bg = document.querySelector(".full")
-		bg.style.background='url(img/intheGarden.jpg)';
+		$('html').css('background-image', 'url(img/intheGarden.jpg)');
 		clearInterval(refreshScreen);
 		clearUp();
 	}
