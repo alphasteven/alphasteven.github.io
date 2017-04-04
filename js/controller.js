@@ -66,7 +66,7 @@ function onYouTubeIframeAPIReady() {
 	player = new YT.Player('bgm_player', {
 	height: '0',
 	width: '0',
-	videoId: 'IGQBtbKSVhY',
+	videoId: '5Cof9rP7TEQ',
 	playerVars: { 'autoplay': 1, 'controls': 0 },
 	events: {
 		'onReady': onPlayerReady,
