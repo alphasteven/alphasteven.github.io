@@ -5354,7 +5354,7 @@ $.CloseMessage = function() {
     $("#msBackground").fadeOut(300);
     clearInterval(TextTimer);
     clearInterval(BackTimer);
-	$("#msBackground").remove();
+	//$("#msBackground").remove();
 };
 
 $.ShowMessage = function(settings, callback) {
