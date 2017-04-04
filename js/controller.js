@@ -50,6 +50,11 @@ var textArr = [
 	[235, " "],
 ];
 
+var image = new Image();
+image.onerror = function(){
+	alert("Can not connect to Youtube, \nPlease check your Internet connection and try again");
+};
+image.src = "http://youtube.com/favicon.ico";
 
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
