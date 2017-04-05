@@ -103,7 +103,7 @@ var onPlayerStateChange = (function() {
 				display(textArr[line][1], (textArr[line+1][0] - textArr[line][0] + 1) * 1000);
 				line++;
 			}
-		}, 50);
+		}, 30);
 	} else if (event.data == YT.PlayerState.ENDED) {
 		$('html').css('background-image', 'url(img/intheGarden.jpg)');
 		clearInterval(refreshScreen);
