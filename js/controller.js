@@ -56,8 +56,8 @@ var textArr = [
 	[188.7, "動き出したあの空へ"],
 	[192.6, "飛ぼう"],
 	[196.9, " "],[198.0, " "],[200.0, " "],[202.0, " "],[204.0, " "],
-	[206.0, "【in the Garden】"],[214.0, "2014/10/26発売 Primary 11th album\"From GardeN\"より"],
-	[222.0, "イラスト：tica85 bookstores"],[230.0, "Author: Alpha"],
+	[206.0, "【in the Garden】"],[212.7, "2014/10/26発売 Primary 11th album\"From GardeN\"より"],
+	[217.5, "イラスト：tica85 bookstores"],[220.0, "Author: Alpha"],[225.0, "2017/4/5"],[230.0,"CSS3 + jQuery"]
 	[235.0, " "],
 ];
 
