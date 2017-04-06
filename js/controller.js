@@ -98,12 +98,12 @@ var onPlayerStateChange = (function() {
 		inprogress = true;
 		var line = 0;
 		refreshScreen = setInterval(function(){
-			if(player.getCurrentTime().toFixed(1) >= textArr[line][0]){
+			if(player.getCurrentTime().toFixed(2) >= textArr[line][0]){
 				clearUp();
 				display(textArr[line][1], (textArr[line+1][0] - textArr[line][0] + 1) * 1000);
 				line++;
 			}
-		}, 30);
+		}, 50);
 	} else if (event.data == YT.PlayerState.ENDED) {
 		$('html').css('background-image', 'url(img/intheGarden.jpg)');
 		clearInterval(refreshScreen);
